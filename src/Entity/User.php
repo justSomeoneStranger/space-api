@@ -11,6 +11,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
 /**
  * @ApiResource(formats={"json"})
  * @ORM\Entity(repositoryClass=UserRepository::class)
+* @ORM\Table(name="tablee")
  */
 class User implements UserInterface
 {
