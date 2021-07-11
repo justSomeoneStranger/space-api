@@ -9,7 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ApiResource(formats={"json"})
  * @ORM\Entity(repositoryClass=TableRepository::class)
- * @ORM\Table(name="`table`")
+ * @ORM\Table(name="tableee")
  */
 class Table
 {
