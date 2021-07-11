@@ -21,7 +21,7 @@ use Vich\UploaderBundle\Mapping\Annotation as Vich;
  * @ApiResource(formats={"json"})
  * @ORM\Entity(repositoryClass=EventRepository::class)
  *  @Vich\Uploadable
- * @ORM\Table(name="tableee")
+ * @ORM\Table(name="evenntt")
 */
  
   class Event
